@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12" style="padding: 0px">
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="javascript:void(0)"
+                ><img
+                  src="https://www.w3schools.com/bootstrap5/img_avatar1.png"
+                  alt="Logo"
+                  style="width: 40px"
+                  class="rounded-pill"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mynavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Link</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="text"
+                    placeholder="Search"
+                  />
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12" style="padding: 0px">
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="online_shopping_wishlist_buy_my_orders_list_add_to_shopping_cart.jpg"
+                  alt="Los Angeles"
+                  class="d-block"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="inventory_control_system_concept_professional_manager_and_worker.jpg"
+                  alt="Chicago"
+                  class="d-block"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="12286135_4899590.jpg"
+                  alt="New York"
+                  class="d-block"
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="container">
+      <div class="row" style="padding: 100px 50px">
+        <div class="col-sm-4">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top"
+              src="https://www.w3schools.com/bootstrap4/img_avatar1.png"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top"
+              src="https://www.w3schools.com/bootstrap4/img_avatar6.png"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 400px">
+            <img
+              class="card-img-top"
+              src="https://www.w3schools.com/bootstrap4/img_avatar1.png"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
