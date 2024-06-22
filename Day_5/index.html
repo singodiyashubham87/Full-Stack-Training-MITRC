@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-  <h1>College Training</h1> 
-  <p>MITRC college</p>
-  <span>My name is Drishti Kirodiwal</span> 
-  <ol><li>ab</li>
-      <li>bc</li>  </ol>
-  <table><tr ><th>Name</th><th>Roll No.</th></tr>
-        <tr><td>Drishti</td><td>Tanu</td></tr>
-        <tr><td>24</td><td>64</td></tr>
-        </table>
-    <a href="https://github.com/Drishti2003">GitHub</a>
-    <input type="text" placeholder="abc">
-    <input type="checkbox">
-    <input type="radio">
-    <input type="email">
-    <input type="password">
-    <input type="tel">
-    <button>xyz</button>
-    <form ><label>Name</label>
-            <input type="text">
-            <label >Course</label>
-            <input type="text">
-            <button>Submit</button></form>
-            <img src="595233bf-b78d-4982-9ed0-9b570751d8e4.png" alt="">
-  </body>
+</head>
+
+<body>
+    <script>
+        // name the person whose sge is more then 30
+        // let jsonArray = [
+        //     { name: "john", age: 30, city: "new york" },
+        //     { name: "jane", age: 25, city: "london" },
+        //     { name: "jim", age: 35, city: "sydne" }
+
+        // ];
+        // let aboveThirty = jsonArray.filter(name => name.age > 30);
+        // console.log(aboveThirty);
+
+        // find the average age of persons who lives in new york 
+        // let jsonArray = [
+        //     { name: "john", age: 30, city: "new york" },
+        //     { name: "jane", age: 25, city: "london" },
+        //     { name: "jim", age: 35, city: "sydne" },
+        //     { name: "jake", age: 22, city: "new york" },
+        //     { name: "jill", age: 28, city: "london" }
+        // ]
+        // let newyorkperson = jsonArray.filter(name => name.city == "new york").map(());
+        // console.log(Avgage);
+
+        //   squar
+        // const number = [1,2,3,4,5]
+        // let x= number.map((item)=>item*item)
+        // console.log(x)
+
+        // oddnumber
+        // const numbers = [1, 2, 3, 4, 5]
+        // const x = numbers.filter(item => item % 2 !== 0);
+        // console.log(x)
+
+        // price will becomw 90% only for those where price is greater that 400
+        let products  = [
+            {name:"Laptop",price:1000},
+            {name:"Phone",price:500},
+            {name:"Tablet",price:325},
+        ];
+        products.map((item) => {
+  if (product.price > 400) {
+    product.price *= 0.9;
+  }
+});
+
+console.log(products);
+
+    </script>
+</body>
+
 </html>

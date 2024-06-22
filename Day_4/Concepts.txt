@@ -1,2 +1,3 @@
 **Introduction to JavaScript:** 
-    > Basic JavaScript concepts like datatypes, variables, conditional expressions, etc.
+    -> Basic JavaScript concepts like datatypes, variables, conditional expressions, etc.
+    -> String method 

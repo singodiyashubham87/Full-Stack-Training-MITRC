@@ -1,3 +1,4 @@
 **> Need & Intro to React**
     -> Need of React
     -> Basics of React
+    -> Structuring a React App

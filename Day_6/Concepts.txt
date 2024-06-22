@@ -1,3 +1,2 @@
 **JavaScript assessment on JSON**
-    -> JavaScript assessment on JSON
-    -> JS excercises
+    -> JavaScript assessment 
