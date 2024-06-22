@@ -1,1 +1,4 @@
-Intro to HTML, CSS and JavaScript.
+Intro to HTML, CSS.
+
+> HTML: HTML is the standard markup language for Web pages. With HTML you can create your own Website. 
+> CSS: CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.

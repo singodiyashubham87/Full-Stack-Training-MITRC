@@ -1,0 +1,5 @@
+**> Intermediate JavaScript**
+    -> Objects
+    -> Arrays
+    -> Functions
+    -> String method & two excercises

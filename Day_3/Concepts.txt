@@ -1,0 +1,4 @@
+**> BootStrap Navbar & Layout**
+
+Taught how to make layouts using BootStrap along with some HTML tag like table, list, etc.
+
